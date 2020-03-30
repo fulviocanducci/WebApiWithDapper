@@ -130,6 +130,7 @@ namespace WebApiWithDapper.Controllers
             //}, splitOn: "Id, Id");
             //return datas;
 
+
             StringBuilder sql = new StringBuilder();
             sql.Append("SELECT * FROM People;");
             sql.Append("SELECT * FROM Phone AS ph WHERE ");
